@@ -16,13 +16,13 @@ body{
 .spots__center{
   display: flex;
   flex-direction: row;
-  overflow-x: auto;
+  overflow-x: hidden;
   height: 100%;
   overflow-y: hidden;
 
 }
 .spots{
-  overflow: auto;
+  /* overflow: hidden; */
   margin: 50px 25px;
   padding: 10px 0px;
   display: flex;
