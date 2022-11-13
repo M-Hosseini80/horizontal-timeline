@@ -1,0 +1,56 @@
+body{
+    background-color: #f5f5f5;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+.timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.spots{
+max-width: 300px;
+background-color: #fff;
+padding: 25px;
+/* margin: 15px; */
+height: 200px;
+position: relative;
+overflow: auto;
+margin: 25px;
+}
+
+.content{
+    
+}
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    height: 6px;
+    top: 102%;
+  }
+
+
+  @media screen and (min-width: 1024px) {
+    .spots:nth-child(odd){
+        margin-top: 27%;
+        
+        }
+        /* .spots:nth-child(even){
+        margin-top: 10%;
+        } */
+
+        .timeline::after {
+            top: 50%;
+          }
+        
+
+  }
