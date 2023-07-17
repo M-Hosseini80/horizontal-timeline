@@ -1,2 +1,2 @@
 ﻿# horizontal-timeline
-![](https://myoctocat.com/assets/images/base-octocat.svg)
+![](https://github.com/M-Hosseini80/horizontal-timeline/blob/master/screenshot.JPG)
